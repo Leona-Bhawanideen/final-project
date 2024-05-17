@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    h1 {
+      font-size: 20 px;
+      font-family: "Playfair Display", serif;
+      text-align: center;
+    }
+    h2 {
+      font-size: 65px;
+      text-align: center;
+    }
+    p {
+      font-size: 20px;
+      text-align: center;
+      
+    }
+    .container {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 30%; /* Adjust the size of the image as needed */
+  margin-right: 10px; /* Adjust the spacing between the image and text as needed */
+}
+
+p {
+  flex-grow: 1;
+}
+button{
+ color: white;
+      background: blueviolet;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      padding: 16px 32px;
+      border-radius: 20px;
+      cursor: pointer;
+}
+nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+  </style>
+
+  <body>
+     <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <h1>😉Hello,I'm</h1>
+    <h2>Leona bhawanideen</h2>
+    <strong><p>Front-end eveloper based in south africa</p></strong>
+    <br />
+    <div class="container">
+        <img src="data:image/jpeg;base64,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"></a>
+    <p class="yogurt"> 
+<br>
+Im currently seeking new opportunities in front end development,Im open to
+    work remotely and have flexible hours.Im highly skilled in Javascript.</p>
+</div>
+<button>
+  See my projects
+</button>
+    
+  </body>
+</html>
